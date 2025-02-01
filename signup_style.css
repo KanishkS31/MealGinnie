@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+  }
+  .nf {
+    position: relative;
+    width: auto;
+    margin-top: 7px;
+  }
+  
+  .nf h1 {
+    padding-top: 10px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-family: "audiowide";
+    cursor: pointer;
+  }
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: url(images/bg10.jpg)  ;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+  }
+  
+  .wrapper{
+    width: 420px;
+    background: black transparent;
+    color: white;
+    border-radius: 8px;
+  }
+  .wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: "audiowide";
+  }
+  .wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 100px 30px;
+
+  }
+  .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 5px;
+    padding: 20px 45px 20px 20px;
+    font-size: 20px;
+    color: #fff;
+  }
+  .input-box input::placeholder{
+    color: #fff;
+  }
+  .input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+  }
+  .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+  }
+  .remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+  }
+  .remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .remember-forgot a:hover{
+    text-decoration: underline;
+  }
+  .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 30px;
+  }
+   .register-link{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  .register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .register-link p a:hover{
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  .footer {
+    width: 100%;
+    position: absolute;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 10;
+    width: 100%;
+  }
+  
+  .logos {
+    width: 100%;
+    position: relative;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .copyright {
+    width: 97%;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid rgba(255, 255, 255, 0.3) 1px;
+  }
+  .add {
+    color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .logoimgs {
+    display: flex;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logolinks {
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(250, 250, 250, 0) 0px 5px 15px;
+    transition: transform 0.25s;
+  }
+  .fab {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .fab:hover {
+    color: rgb(255, 100, 100);
+    text-decoration: none;
+  }
+  
+  .fas {
+    color: rgb(255, 100, 100);
+  }
+  
+  .imgtext {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 90%;
+    padding: 5%;
+  }
+  
+  .logolinks:hover {
+    text-decoration: none;
+    border-color: rgb(255, 100, 100);
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    box-shadow: rgba(255, 100, 100, 0.35) 0px 5px 15px;
+    color: rgb(255, 100, 100);
+  }
+  
